@@ -3989,6 +3989,8 @@ public class StatusBar extends SystemUI implements DemoMode,
         updateScrimController();
         mPresenter.updateMediaMetaData(false, mState != StatusBarState.KEYGUARD);
         updateKeyguardState();
+
+        ((StatusBarIconControllerImpl) mStatusBarIconController).setKeyguardShowing(mState == StatusBarState.KEYGUARD);
         Trace.endSection();
     }
 
