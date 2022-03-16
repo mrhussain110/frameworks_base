@@ -172,7 +172,6 @@ java_library {
         "framework-mediaprovider.impl",
         "framework-permission.impl",
         "framework-permission-s.impl",
-        "framework-scheduling.impl",
         "framework-sdkextensions.impl",
         "framework-statsd.impl",
         "framework-tethering.impl",
